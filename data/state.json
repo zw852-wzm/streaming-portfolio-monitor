@@ -1,0 +1,30 @@
+{
+    "n": 1,
+    "portfolio_value": 1.0031645792603392,
+    "running_mean": 0.00316457926033924,
+    "running_M2": 0.0,
+    "running_variance": 0.0,
+    "running_volatility": 0.0,
+    "running_peak": 1.0031645792603392,
+    "current_drawdown": 0.0,
+    "max_drawdown": 0.0,
+    "tail_event_count": 0,
+    "processed_dates": [
+        "2026-04-27"
+    ],
+    "reservoir_sample": [
+        {
+            "date": "2026-04-27",
+            "portfolio_return": 0.00316457926033924,
+            "asset_returns": {
+                "BTC-USD": 0.0158228963016962
+            }
+        }
+    ],
+    "rolling_window_size": 20,
+    "recent_returns": [
+        0.00316457926033924
+    ],
+    "rolling_mean": 0.00316457926033924,
+    "rolling_volatility": 0.0
+}
