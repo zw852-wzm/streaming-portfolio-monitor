@@ -37,10 +37,12 @@ def save_state(state, filepath="data/state.json"):
     ----------
     state : dict
         Portfolio monitoring state.
-
     filepath : str
         Path to the state JSON file.
     """
+    directory = os.path.dirname(filepath)
+    if directory:
+        os.makedirs(directory, exist_ok=True)
 
     with open(filepath, "w") as f:
         json.dump(state, f, indent=4)
