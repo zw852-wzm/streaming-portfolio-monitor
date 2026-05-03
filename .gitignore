@@ -3,3 +3,17 @@ __pycache__/
 *.pyc
 .Rhistory
 data/state.json
+
+# Local environment
+.venv/
+venv/
+
+# Python packaging artifacts
+*.egg-info/
+build/
+dist/
+
+# Test and coverage artifacts
+.coverage
+htmlcov/
+.pytest_cache/
