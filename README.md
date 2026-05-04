@@ -291,8 +291,8 @@ python -m pytest --cov=src tests/ --cov-report=term-missing
 Current local test result:
 
 ```text
-14 passed
-Total coverage: 92%
+20 passed
+Total coverage: 100%
 ```
 
 The tests cover:
